@@ -4,7 +4,7 @@
 - CSS
 - JS
 ## In-Class Assignments
-- ICA1
+- [ICA1](https://docs.google.com/document/d/1C2Cv9gWM7WfDD0230MwR3QoF65WdLovnTSe8HJqx2V4/edit?usp=sharing)
 - ICA2
 - ICA3
 - ICA4
