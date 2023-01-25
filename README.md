@@ -5,7 +5,7 @@
 - JS
 ## In-Class Assignments
 - [ICA1](https://docs.google.com/document/d/1C2Cv9gWM7WfDD0230MwR3QoF65WdLovnTSe8HJqx2V4/edit?usp=sharing)
-- ICA2
+- [ICA2](https://docs.google.com/document/d/1kogXwKb3lVR0fMFnrqGs3HHKL0-DZx6tOlIoGD5xto0/edit?usp=sharing)
 - ICA3
 - ICA4
 - ICA5
