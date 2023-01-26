@@ -4,8 +4,8 @@
 - CSS
 - JS
 ## In-Class Assignments
-- [ICA1](ica/ICA1%20--%20How%20to%20Search.pdf)
-- [ICA2](ica/ICA2%20--%20Exploring%20Directory%20Structures.pdf)
+- [ICA1](ica/ICA1.pdf)
+- [ICA2](ica/ICA2.pdf)
 - ICA3
 - ICA4
 - ICA5
