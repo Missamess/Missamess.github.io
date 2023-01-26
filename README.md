@@ -4,8 +4,8 @@
 - CSS
 - JS
 ## In-Class Assignments
-- [ICA1](https://docs.google.com/document/d/1C2Cv9gWM7WfDD0230MwR3QoF65WdLovnTSe8HJqx2V4/edit?usp=sharing)
-- [ICA2](https://docs.google.com/document/d/1kogXwKb3lVR0fMFnrqGs3HHKL0-DZx6tOlIoGD5xto0/edit?usp=sharing)
+- [ICA1](ica/ICA1%20--%20How%20to%20Search.pdf)
+- [ICA2](ica/ICA2%20--%20Exploring%20Directory%20Structures.pdf)
 - ICA3
 - ICA4
 - ICA5
@@ -20,8 +20,8 @@
 - ICA14
 - ICA15
 ## Weekly Assignments
-- WA1
-- WA2
+- [WA1](wa/wa1.html)
+- [WA2](wa/wa2.html)
 - WA3
 - WA4
 - WA5
