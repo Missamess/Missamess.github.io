@@ -4,8 +4,8 @@
 - CSS
 - JS
 ## In-Class Assignments
-- [ICA1](ica/ICA1.pdf)
-- [ICA2](ica/ICA2.pdf)
+- [ICA1](https://missamess.github.io/wa/wa1.html)
+- [ICA2](https://missamess.github.io/wa/wa2.html)
 - ICA3
 - ICA4
 - ICA5
@@ -20,8 +20,8 @@
 - ICA14
 - ICA15
 ## Weekly Assignments
-- [WA1](wa/wa1.html)
-- [WA2](wa/wa2.html)
+- [WA1](https://missamess.github.io/ica/ICA1.pdf)
+- [WA2](https://missamess.github.io/ica/ICA2.pdf)
 - WA3
 - WA4
 - WA5
