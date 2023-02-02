@@ -4,8 +4,8 @@
 - CSS
 - JS
 ## In-Class Assignments
-- [ICA1](https://missamess.github.io/wa/wa1.html)
-- [ICA2](https://missamess.github.io/wa/wa2.html)
+- [ICA1](/ica/ICA1.pdf)
+- [ICA2](/ica/ICA2.pdf)
 - [ICA3A](/ica/ICA3A.HTML)
 - [ICA3B](/ica/ica3-part2/index.html)
 - ICA4
