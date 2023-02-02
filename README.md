@@ -6,7 +6,8 @@
 ## In-Class Assignments
 - [ICA1](https://missamess.github.io/wa/wa1.html)
 - [ICA2](https://missamess.github.io/wa/wa2.html)
-- ICA3
+- [ICA3A](/ica/ICA3A.HTML)
+- [ICA3B](/ica/ica3-part2/index.html)
 - ICA4
 - ICA5
 - ICA6
@@ -20,8 +21,8 @@
 - ICA14
 - ICA15
 ## Weekly Assignments
-- [WA1](https://missamess.github.io/ica/ICA1.pdf)
-- [WA2](https://missamess.github.io/ica/ICA2.pdf)
+- [WA1](/wa/wa1.html)
+- [WA2](/wa/wa2.html)
 - WA3
 - WA4
 - WA5
