@@ -24,7 +24,7 @@
 - [WA1](/wa/wa1.html)
 - [WA2](/wa/wa2.html)
 - [WA3](/wa/wa3.html)
-- WA4
+- [WA4](/wa/wa4.html)
 - WA5
 - WA6
 - WA7
