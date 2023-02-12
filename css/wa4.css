@@ -97,6 +97,7 @@ body {
     background-color: rgb(255, 170, 0);
     border: 0.5em dotted black;
     border-radius: 1.5em;
+    font-family: "Courier New";
   }
 
   .card2 header {
