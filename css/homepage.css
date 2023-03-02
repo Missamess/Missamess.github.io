@@ -1,0 +1,53 @@
+
+/* Font Change */
+h1, h2, h3, h4, p, ul { font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+
+/* Background Card */
+.background-color {
+  background: teal url("tick.png") 20px 50% no-repeat;
+  border: 8px solid lightgray ;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 15px 20px 15px 50px;
+}
+
+
+/* Text Shadow */
+body {
+    text-shadow: 1px 1px 2px black, 0 0 1em teal, 0 0 0.2em teal;    
+}
+
+
+/* Button Hover */
+/* https://css-tricks.com/css-link-hover-effects/ */
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+  }
+
+  .noise-image {
+    background: linear-gradient(-45deg, #ffeb3b, #74efff, #9c27b0);
+    background-size: 400% 400%;
+    animation: gradient-bg 20s ease infinite;
+}
+
+@keyframes gradient-bg {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
