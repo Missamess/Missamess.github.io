@@ -29,7 +29,7 @@
 - [WA4](/wa/wa4.html)
 - [WA5](/wa/wa5.html)
 - [WA6](/wa/wa6/index.html)
-- WA7
+- [WA7](/wa/wa7.html)
 - WA8
 - WA9
 - WA10
