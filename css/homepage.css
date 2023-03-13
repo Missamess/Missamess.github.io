@@ -1,6 +1,8 @@
  /* Font Change */
 h1, h2, h3, h4, p, ul {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
+
+ /* Text Box Decor */
 p {
   padding: 1%;
   border-width:1px;
@@ -9,6 +11,7 @@ p {
   border-color:#287EC7;
   background-color: teal;
 }
+
 
 /* Subtitle Animation Modifier */
 h3, h4 {
