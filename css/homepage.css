@@ -1,6 +1,29 @@
  /* Font Change */
 h1, h2, h3, h4, p, ul {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
+p {
+  padding: 1%;
+  border-width:1px;
+  border-radius: 10px;
+  border-style:dotted;
+  border-color:#287EC7;
+  background-color: teal;
+}
+
+/* Subtitle Animation Modifier */
+h3, h4 {
+  animation-name: subtitles;
+  animation-iteration-count: infinite;
+  animation-duration: .5s;
+  animation-direction: alternate;
+}
+@keyframes subtitles{
+  0%{transform:rotate(1deg); scale:calc(99%);}
+  50%{transform:rotate(0deg);}
+  100%{transform:rotate(-1deg);}
+}
+
+
 /* Background Card */
 .background-color {
   background-image: linear-gradient(teal, whitesmoke);
@@ -19,11 +42,11 @@ body {
     background-image: linear-gradient(white, lightblue);
   }
 
+
 /* NAV Modifiers | Screen Changes */
 nav {
   font-size: large;
 }
-
 @media screen and (max-width: 1000px) {
   nav, a {
       margin: 0;
@@ -35,6 +58,7 @@ nav {
       display: block;
     }
 }
+
 
 /* Button Hover */
 a {
@@ -49,15 +73,9 @@ a {
     color: white;
   }
 @keyframes gradient-bg {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
 }
 
 
@@ -72,9 +90,9 @@ a {
   font-size: xx-large;
 }
 @keyframes myname{
-  0%{transform:rotate(3deg);}
+  0%{transform:rotate(2deg);}
   50%{transform:rotate(0deg);}
-  100%{transform:rotate(-3deg);}
+  100%{transform:rotate(-2deg);}
 }
 
 
@@ -85,7 +103,6 @@ a {
     left: 3.75em;
     }
 }
-
 @media screen and (max-width: 1200px) {
   #myname {
     left: 8.5em;
@@ -93,7 +110,6 @@ a {
     font-size: 15px;
     }
 }
-
 @media screen and (max-width: 1000px) {
   #myname {
     left: 6.25em;
@@ -101,7 +117,6 @@ a {
     font-size: 15px;
     }
 }
-
 @media screen and (max-width: 750px) {
   #myname {
     left: 5.75em;
