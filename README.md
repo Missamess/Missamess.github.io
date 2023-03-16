@@ -15,7 +15,7 @@
 - [ICA6C](/ica/ica6/ica6-part3.html)
 - [ICA7](/ica/ica7.html)
 - ICA8
-- ICA9
+- [ICA9](/ica/ica9.html)
 - ICA10
 - ICA11
 - ICA12
