@@ -1,0 +1,29 @@
+ /* Font Change */
+ h1, h2, h3, h4, p, ul {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+
+ /* Text Box Decor */
+p {
+  padding: 1%;
+  border-width:1px;
+  border-radius: 10px;
+  border-style:dotted;
+  border-color:#287EC7;
+}
+
+/* Background Card */
+.background-color {
+  border: 10px ridge lightgray ;
+  border-radius: 100px;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 15px 20px 15px 50px;
+  max-width: 25%;
+}
+
+
+/* Text Shadow */
+body {
+    text-shadow: .1px .1px .1px black, 0 0 1em teal, 0 0 0.2em teal;
+    background-color: lightcyan;
+  }
