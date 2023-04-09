@@ -2,7 +2,7 @@
 const button = document.querySelector("#js-new-quote");
 button.addEventListener('click', getQuote)
 console.log ("CODE IS TRACKING.");
-const endpoint = "https://trivia.cyberwisp.com/getrandomchristmasquestion"
+const endpoint = "https://uselessfacts.jsph.pl/api/v2/facts/random?language=en"
 async function getQuote(){
 //TRY & ERROR
 try {
@@ -11,7 +11,7 @@ try {
         throw Error(response.statusText)
     }
     const json = await response.json()
-    displayQuote(json.question);
+    displayQuote(json.text);
 }
 catch (err) {
     console.log(err);
