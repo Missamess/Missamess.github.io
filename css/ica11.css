@@ -10,11 +10,14 @@ html {
     padding: 0;
   }
   
+  
+  
   body {
     font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
     background-image: linear-gradient(lightblue, whitesmoke);
     padding: 15px 20px 15px 50px;
     max-width: 25%;
+    text-align: center;
   }
   
   .app {
@@ -38,11 +41,9 @@ html {
   
   .quotes {
     padding: 20px 50px;
-    min-height: 200px;
   }
-  
+
   .quote-text {
-    padding-bottom: 20px;
     font-size: 25px;
     color: black;
   }
@@ -55,7 +56,7 @@ html {
   .button {
     display: block;
     color: white;
-    border-radius: 4px;
+    border-radius: 12px;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
