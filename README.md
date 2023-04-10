@@ -36,5 +36,6 @@
 - WA13
 - WA14
 - WA15
-## Mid-Term
+## Mid-Term & Quizes
 - [MT](/html-midterm/page5.html)
+- [Q10](/quiz10/quiz10.html)
