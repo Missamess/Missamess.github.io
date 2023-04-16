@@ -30,9 +30,7 @@
 - [WA6](/wa/wa6/index.html)
 - [WA7](/wa/wa7.html)
 - [WA9](/wa/wa9.html)
-- WA10
-- WA11
-- WA12
+- [WA12](/wa/wa12.html)
 - WA13
 - WA14
 - WA15
