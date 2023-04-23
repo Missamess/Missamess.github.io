@@ -1,0 +1,50 @@
+/* Font Change */
+h1, h2, h3, h4, p, ul {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1 {
+    padding: 1em;
+    text-align: center;
+    animation-name: header;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+    animation-direction: alternate;
+  }
+  @keyframes header{
+    0%{transform:rotate(1deg); scale:calc(99%);}
+    50%{transform:rotate(1deg);}
+    100%{transform:rotate(-1deg);}
+}
+html {
+    background-image: linear-gradient(lightcyan, rgb(128, 186, 186));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+.apart {
+    animation-name: top;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-direction: alternate;
+  }
+  @keyframes top{
+    0%{transform:rotate(3deg); scale:calc(0%);}
+    50%{transform:rotate(3deg);}
+    100%{transform:rotate(-3deg);}
+}
+div {
+    text-align: center;
+  }
+.slidecontainer {
+    padding: 3.8em;
+    animation-name: bottom;
+    animation-iteration-count: infinite;
+    animation-duration: .6s;
+    animation-direction: alternate;
+  }
+  @keyframes bottom{
+    0%{transform:rotate(10deg); scale:calc(0%);}
+    50%{transform:rotate(10deg);}
+    100%{transform:rotate(-10deg);}
+  }
