@@ -32,7 +32,7 @@
 - [WA9](/wa/wa9.html)
 - [WA12](/wa/wa12.html)
 - [WA13](/wa/wa13.html)
-- WA14
+- [WA14](/wa/wa14.html)
 - WA15
 ## Mid-Term and Quiz 10
 - [MT](/html-midterm/page5.html)
