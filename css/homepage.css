@@ -1,6 +1,9 @@
- /* Font Change */
-h1, h2, h3, h4, p, ul {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+html {
+  z-index: 999;
+}
 
+/* Font Change */
+h1, h2, h3, h4, p, ul {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
  /* Text Box Decor */
 p {
@@ -11,7 +14,6 @@ p {
   border-color:#287EC7;
   background-color: teal;
 }
-
 
 /* Subtitle Animation Modifier */
 h3, h4 {
@@ -26,7 +28,6 @@ h3, h4 {
   100%{transform:rotate(-1deg);}
 }
 
-
 /* Background Card */
 .background-color {
   background-image: linear-gradient(teal, whitesmoke);
@@ -38,13 +39,11 @@ h3, h4 {
   max-width: 25%;
 }
 
-
 /* Text Shadow */
 body {
     text-shadow: 1px 1px 2px black, 0 0 1em teal, 0 0 0.2em teal;
     background-image: linear-gradient(white, lightblue);
   }
-
 
 /* NAV Modifiers | Screen Changes */
 nav {
@@ -61,7 +60,6 @@ nav {
       display: block;
     }
 }
-
 
 /* Button Hover */
 a {
@@ -81,7 +79,6 @@ a {
 	100% {background-position: 0% 50%;}
 }
 
-
 /* Wobbly Name */
 #myname{
   position: absolute;
@@ -97,7 +94,6 @@ a {
   50%{transform:rotate(0deg);}
   100%{transform:rotate(-2deg);}
 }
-
 
 /* Wobbly Name Screen Size Modifier */
 @media screen and (max-width: 1500px) {
@@ -126,4 +122,13 @@ a {
     top: 4.5em;
     font-size: 12.5px;
     }
+}
+
+ /* JS Final Background */
+body {
+  margin: 0;
+}
+
+#hero {
+  background: linear-gradient(-135deg, #008b8b, #ffffff);
 }
