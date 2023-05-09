@@ -1,12 +1,14 @@
-html {
-  z-index: 999;
+canvas {
+  position: fixed;
 }
+
 
 /* Font Change */
 h1, h2, h3, h4, p, ul {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
  /* Text Box Decor */
 p {
+  position: relative;
   padding: 1%;
   border-width:1px;
   border-radius: 10px;
@@ -17,6 +19,7 @@ p {
 
 /* Subtitle Animation Modifier */
 h3, h4 {
+  position: relative;
   animation-name: subtitles;
   animation-iteration-count: infinite;
   animation-duration: .5s;
@@ -30,6 +33,7 @@ h3, h4 {
 
 /* Background Card */
 .background-color {
+  position: relative;
   background-image: linear-gradient(teal, whitesmoke);
   border: 10px ridge lightgray ;
   border-radius: 100px;
@@ -80,9 +84,10 @@ a {
 }
 
 /* Wobbly Name */
-#myname{
+#myname {
   position: absolute;
-  top: 4%;
+  top: 1%;
+  padding-left: 18%;
   animation-name: myname;
   animation-iteration-count: infinite;
   animation-duration: .5s;
@@ -94,6 +99,7 @@ a {
   50%{transform:rotate(0deg);}
   100%{transform:rotate(-2deg);}
 }
+
 
 /* Wobbly Name Screen Size Modifier */
 @media screen and (max-width: 1500px) {

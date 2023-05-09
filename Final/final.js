@@ -8,6 +8,8 @@ window.addEventListener("mousemove", function(e) {
   mouse.y = event.y;
 });
 
+
+
 // Shape, Color, & Touch
 class scanline {
   constructor(x, y, dx, dy, width) {
@@ -23,11 +25,11 @@ class scanline {
   draw = () => {
     c.beginPath();
     c.moveTo(this.x, this.y);
-    c.lineTo(this.x - this.width / 20, this.y);
+    c.lineTo(this.x - this.width / 10, this.y);
     c.lineTo(this.x, this.y + this.width / 2);
-    c.lineTo(this.x + this.width / 20, this.y);
+    c.lineTo(this.x + this.width / 10, this.y);
     c.lineTo(this.x, this.y - this.width / 2);
-    c.lineTo(this.x - this.width / 20, this.y);
+    c.lineTo(this.x - this.width / 10, this.y);
     c.fillStyle = this.color;
     c.fill();
     this.update();
@@ -45,7 +47,7 @@ class scanline {
       mouse.y - this.y > -25 &&
       this.width < this.maxWidth
     ) {
-      this.width += 3;
+      this.width += 10;
       this.x -= 1;
       this.y -= 1;
     }
@@ -60,8 +62,8 @@ cvs.height = window.innerHeight;
 window.addEventListener("animationstart", function() {
 });
 let array = [];
-for (let i = 100; i < 500; i++) {
-  let width = Math.random() * 8 + 2;
+for (let i = 100; i < 1000; i++) {
+  let width = Math.random() * 5;
   let x = Math.random() * window.innerWidth;
   let dx = (Math.random() - 1) * .25;
   let y = Math.random() * window.innerHeight;
