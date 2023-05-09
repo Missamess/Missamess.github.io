@@ -135,6 +135,6 @@ body {
   margin: 0;
 }
 
-#hero {
-  background: linear-gradient(-135deg, #008b8b, #ffffff);
+#scanline {
+  background: linear-gradient(white, teal);
 }

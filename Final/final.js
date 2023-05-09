@@ -8,8 +8,6 @@ window.addEventListener("mousemove", function(e) {
   mouse.y = event.y;
 });
 
-
-
 // Shape, Color, & Touch
 class scanline {
   constructor(x, y, dx, dy, width) {
